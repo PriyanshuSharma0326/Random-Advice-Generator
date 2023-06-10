@@ -5,15 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
         <title>Frontend Mentor | Advice generator app</title>
-        <style>
-            .attribution { font-size: 11px; text-align: center; }
-            .attribution a { color: hsl(228, 45%, 44%); }
-        </style>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <div class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-            Coded by <a href="#">Your Name Here</a>.
-        </div>
+        <main>
+            <div class="advice-card">
+                <text class="advice-title">
+                    advice #<span class="advice-number">000</span>
+                </text>
+
+                <p class="advice-text">
+                    "Click the button to generate a random advice."
+                </p>
+
+                <img src="./images/pattern-divider-desktop.svg" alt="" class="division-image-desktop">
+                <img src="./images/pattern-divider-mobile.svg" alt="" class="division-image-mobile">
+                
+                <div class="advice-button-container">
+                    <img src="./images/icon-dice.svg" alt="" class="dice-image">
+                </div>
+            </div>
+        </main>
+        <script src="./script.js"></script>
     </body>
 </html>
