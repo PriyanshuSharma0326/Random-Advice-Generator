@@ -70,6 +70,7 @@ main {
     color: var(--neon-green);
     font-size: 0.4rem;
     letter-spacing: 0.1rem;
+    margin: 0;
 }
 
 .advice-text {
