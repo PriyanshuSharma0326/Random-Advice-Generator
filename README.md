@@ -1,6 +1,6 @@
 # ADVICE GENERATOR
 
-![Design preview for Advice Generator](./design/desktop-design.jpg)
+![Design preview for Advice Generator](./design/desktop-design.png)
 
 ## Welcome! 👋
 
